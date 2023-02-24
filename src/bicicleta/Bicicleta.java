@@ -21,7 +21,34 @@ public class Bicicleta {
         piñon = 1;
     }
 
+ public int getVelocidad() {
+        return velocidad;
+    }
+    
+    public void setVelocidad(int nuevaVelocidad) {
+        velocidad = nuevaVelocidad;
+    }
+    
 
+    public int getPlato() {
+        return plato;
+    }
+    
+    public void setPlato(int nuevoPlato) {
+        plato = nuevoPlato;
+    }
+    
+    public int getPiñon() {
+        return piñon;
+    }
+    
+    public void setPiñon(int nuevoPiñon) {
+        piñon = nuevoPiñon;
+    }
+    
+    
+    
+    
     }
     
 
