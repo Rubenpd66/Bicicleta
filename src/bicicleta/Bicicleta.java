@@ -54,7 +54,13 @@ public class Bicicleta {
         velocidad /= 3;
     }
     
+    public void cambiarPlato(int nuevoPlato) {
+        plato = nuevoPlato;
+    }
     
+    public void cambiarPiñon(int nuevoPiñon) {
+        piñon = nuevoPiñon;
+    } 
     }
     
 
