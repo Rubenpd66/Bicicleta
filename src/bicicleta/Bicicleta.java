@@ -46,7 +46,13 @@ public class Bicicleta {
         piñon = nuevoPiñon;
     }
     
+    public void acelerar() {
+        velocidad *= 3;
+    }
     
+    public void frenar() {
+        velocidad /= 3;
+    }
     
     
     }
