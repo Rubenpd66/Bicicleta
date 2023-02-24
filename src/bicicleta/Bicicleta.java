@@ -11,7 +11,15 @@ package bicicleta;
 public class Bicicleta {
 
 
-
+  private int velocidad;
+    private int plato;
+    private int piñon;
+    
+    public Bicicleta() {
+        velocidad = 0;
+        plato = 1;
+        piñon = 1;
+    }
 
 
     }
